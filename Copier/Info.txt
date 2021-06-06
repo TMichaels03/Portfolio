@@ -1,0 +1,17 @@
+Program: File Finder
+
+Language: Python
+
+Premise:
+Finder.py searches recursively through files and copies them. After copying, it creates a log file with the orginal directory of the files copied as well as their size in bytes. This program will not copy any file over the size of 1/2 GB (54288000 Bytes) individually. Collectively, however, files may exceed this limit.
+
+Arguments:
+[1] = topdir : Directory to start search in. Will never go above this directory.
+[2] = extensions : List of extensions to search for. Format: [a,b,c,d] or [a, b, c, d]
+ >> Using .* as extension search - [.*] - will cause all files to be copied.
+[3] = copydir : Directory that files will be copied to.
+
+Example:
+python "Finder.py" "C:/Users/User/Desktop" [.txt] "C:/Users/User/Desktop/Copy"
+
+This will search the users Desktop and all aub-directories for any .txt file. Any file below 1/2 GB will be copied afterward to a folder named "Copy". If the folder does not exist, it will create one.

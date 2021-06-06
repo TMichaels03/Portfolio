@@ -1,0 +1,17 @@
+Project: Dungeon Crawler Simulator
+
+Language: Python (Object Oriented)
+
+Note: Name not final
+
+Premise:
+This project is aimed at creating a rouge-like game with scripted encounter events. These will be limited to locale - any encounters meant to be shared will be in an included file. "Locale" refers to a location, or a set of scripted events. Combat is automatic, meaning if there is an enemy, you not get to choose "attack", "defend", or "cast spell". The code decides what to do, then executes it (note, there is no defend option. Combat is completely offensive. Defense and Resistance is based on initial player attributes and equipment).
+There will be multiple locales, allowing players to send characters to them in hopes of clearing the area.
+
+Goals
+ - Finish Crypt Locale
+ - Create Character Management system
+   -> Allow players to have more than one character, choosing which ones to send into the dungeon
+ - Create XP system
+ - Finish Locale Level System
+ - Create GUI for gameplay (instead of command prompt lines)

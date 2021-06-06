@@ -1,0 +1,6 @@
+Project Name: Initiative Tracker
+
+Language: Java
+
+Premise:
+A GUI program allowing users to keep track of TTRPG elements (designed for self for use with Dungeons and Dragons 5e). Users can input Player Characters (PCs), Non-Player Characters (NPCs), then create an initiative order (the order of combat). The program displays the current turn, the previous turn, and the next turn, and also allows the user to change the list in the middle of battle, adding or removing PCs or NPCs as needed. This program additionally allows the user to keep track of NPC health (and PC should they so choose).

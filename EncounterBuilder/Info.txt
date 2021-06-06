@@ -1,0 +1,6 @@
+Project: Encounter Builder
+
+Language: Java
+
+Premise:
+A GUI program that uses predefined monster stats (<Monster Name>:<Initiative>:<Hit Points>) to create encounter files usable by its partner program, Initiative Tracker. Allows users to add, remove, and modify creatures before output, saving their files in a location they choose.

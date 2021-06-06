@@ -1,0 +1,6 @@
+Project: Noise Generator
+
+Language: Java
+
+Premise:
+A project used to create noise maps, typically used for height generation.

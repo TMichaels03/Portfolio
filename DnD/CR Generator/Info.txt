@@ -1,0 +1,21 @@
+Project: CR Generator
+
+Language: Python
+
+Premise:
+This project was to reverse engineer a mathematical problem to create a "recommended" stat sheet of Dungeons and Dragons 5e monsters.
+The mathematical formula for deciding a creature's challenge rating (or CR) is as follows:
+
+ -> CR = (Offensive Rating + Defensive Rating) / 2
+ 
+ -> Offensive Rating = (Attack Bonus + Damage per Round) / 2
+ 
+ -> Defensive Rating = (Armor Class + Hit Points) / 2
+ 
+Armor Class, Hit Points, Attack Bonus, and Damage per round are determined by a table within a source book. Typically, one would look at the table, choose a CR, and work to get their desired outcomes. This program takes their desired outcomes and produces a number of suggestions, which are then easily modified utilizing the table.
+The stat table is built into the program for the program's own reference.
+
+Process:
+
+The code takes the input CR. Because CR = (Offensive Rating + Defensive Rating) / 2, multiply both sides such that 2(CR) = (Offensive Rating + Defensive Rating). Then the program generates a random number using 2(CR) as a sort of minimum to maximum value, generating a number between set guides. It then sets the generated number to the offensive rating, taking the maximum value and subtracting the offensive rating value to determine the defensive rating value. The program then does this process again for each the Offensive and Defensive ratings.
+The program then takes the Attack Bonus, Damage per Round, Armor Class, and Hit Points values that it generated, applies them to a table, then prints the information of suggested stats.

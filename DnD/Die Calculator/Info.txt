@@ -1,0 +1,9 @@
+Project: Hit Points Calculator
+Sub-Project: Hit Point Calculator (With changed mathematics)
+
+Language: Python
+
+Premise:
+The program simply determines the average dice rolls with modifer for multiple reasons for Dungeons and Dragons 5e. The Die Calculator takes two inputs, a Hit Die Size (in terms of dx, where is the number of faces on the die - ex: d10 = ten sided die), and Modifier. The program then runs the dice through a loop, testing it with multiple hit die number inputs, then displays the information. The calculator uses the average of dice rolls to output (ie: The average of 1d6 is 3.5, thus the average of 2d6 is 7). The modifier is multiplied by the number input as well to determine final output. (ex: Size = d10. Modifier = 4. 3d10 + (3 * 4) -> 16.5 + 12 -> 28.5 -> 28). All decimals are rounded down in this ruleset, and the calculator follows this.
+
+The sub-project changes the mathematics. It removes one hit die to set it at its maximum value, adding the modifier to it, then generating a list of the average of the remaining hit dice (ex: Size = d10. Modifier = 4. 3d10 + (3 * 4) -> 2d10 + 10 + 4 + (2 * 4) -> 11 + 14 + 8 -> 33).

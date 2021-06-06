@@ -1,0 +1,14 @@
+Project: Cell Life Simulation
+
+Language: Java
+
+Premise:
+This program utilizes the rules of Conway's Game of Life. This is represented by a set of rules.
+
+ - Any live cell (represented by 1) with two or three live neighbors survives.
+ - Any dead cell (represented by 0) with three live neighbors becomes a live cell.
+ - All other live cells die in the next generation / iteration.
+ 
+The program creates a two dimensional array to simulate 100 iterations.
+
+There is also a version that includes two differing cell life (live cells represented by 1 or 2).

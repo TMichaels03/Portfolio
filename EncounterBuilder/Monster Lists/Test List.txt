@@ -1,0 +1,16 @@
+Aarakocra:2:13
+Aboleth:-1:135
+Deva:4:136
+Planetar:5:200
+Solar:6:243
+Animated Armor:0:33
+Flying Sword:2:17
+Rug of Smothering:2:33
+Ankheg:1:39
+Azer:1:39
+Banshee:2:58
+Basilisk:-1:52
+Behir:3:168
+Beholder:2:180
+Death Tyrant:2:187
+Spectator:2:39
